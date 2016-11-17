@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Calculator</title>
+<script>
+function change(auto){
+	document.getElementById(auto).style.display = 'inline';
+	document.getElementById('lost').style.display="none";
+}
+</script>
+<body>
+	<div style :"display : inline" id="lost">
+	<button type="button" onclick="change('auto1')">this is button2</button>
+	<button type="button" onclick="change('auto2')">This is button2</button>
+	</div>
+	<p style="display : none" id="auto1"><iframe src="http://www.bankrate.com/free-content/refinance/calculators/free-refinance-calculator/" width="100%" height="100%"></iframe></p>	
+	
+	<p style="display : none" id="auto2"><iframe src="https://www.facebook.com/" width="100%" height="100%"></iframe></p>
+
+</body>
+</html>
